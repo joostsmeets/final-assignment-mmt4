@@ -11,7 +11,7 @@ $('#toggle').click(function(event){
         $('header').css({'background-image':'url(img/hero@2x.png)'});
         $('.logo').attr('src', 'img/logo@2x.png');
         $('.thumb').css({'background-color':'#F4F2FF', 'color': '#CC0085'});
-        $('.leer').attr({'src':'img/leer.svg'});
+        $('.leer').attr({'src':'/img/leer.svg'});
         $('.codeer').attr({'src':'img/codeer.svg'});
         $('.speel').attr({'src':'img/speel.svg'});
         $('#accordion h3').css({'outline':'1px solid #CC0085', 'color':"#CC0085"});
