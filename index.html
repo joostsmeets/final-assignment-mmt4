@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="clearfix">
+            <div class="img-nav">
+                <a href="#"><img class="logo" src="img/logo@2x.png" alt="logo"></a>
+            </div>
+            <ul>
+                <li><a href="#">OVER ONS</a></li>
+                <li><a href="#">LESMATERIAAL</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="toggleCont "><a id="toggle" href="#"><div class="buitenkant-knop"><div class="binnenkant-knop"></div></div></a></div>
+        </nav>
+        <div class="header-tekst">
+            <h1>Van beginner naar expert<br> Het lesmateriaal brengt je verder</h1>
+            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus
+                sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+    </header>
+    <main class="grid-wrap">
+        <div class="thumbnails clearfix">
+            <div class="thumb"><img class="leer" src="img/leer.svg" alt="afbeelding leren">
+                <p>Leer</p>
+            </div>
+            <div class="thumb"><img class="codeer" src="img/codeer.svg" alt="afbeelding coderen">
+                <p>Codeer</p>
+            </div>
+            <div class="thumb"><img class="speel" src="img/speel.svg" alt="afbeelding spelen">
+                <p>Speel</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="grid-wrap">
+            <h2>Playlist</h2>
+            <div id="accordion">
+                <h3>Algemene introductie</h3>
+                <div class="accodiv">
+                    <video id="video1" class="video-js"  preload="auto" data-setup="{}">
+                        <source src="video/video1.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <a href="#"><img class="play-button play01" src="img/play-btn@2x.png" alt=""></a>
+                    <a href="#"><img class="backward-btn backward01" src="img/backward-btn.png" alt=""></a>
+                    <a href="#"><img class="forward-btn forward01" src="img/forward-btn.png" alt=""></a>
+                </div>
+                <h3>Workshop 1: Kleuren met code</h3>
+                <div class="accodiv">
+                    <video id="video2" class="video-js"  preload="auto" data-setup="{}">
+                        <source src="video/video2.mp4" type=video/mp4>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <a href="#"><img class="play-button play02" src="img/play-btn@2x.png" alt=""></a>
+                    <a href="#"><img class="backward-btn backward02" src="img/backward-btn.png" alt=""></a>
+                    <a href="#"><img class="forward-btn forward02" src="img/forward-btn.png" alt=""></a>
+                </div>
+                <h3>Workshop 2: Vormen maken</h3>
+                <div class="accodiv">
+                    <video id="video3" class="video-js"  preload="auto" data-setup="{}">
+                        <source src="video/video3.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <a href="#"><img class="play-button play03" src="img/play-btn@2x.png" alt=""></a>
+                    <a href="#"><img class="backward-btn backward03" src="img/backward-btn.png" alt=""></a>
+                    <a href="#"><img class="forward-btn forward03" src="img/forward-btn.png" alt=""></a>
+                </div>
+                <h3>Workshop 3: Beweging</h3>
+                <div class="accodiv">
+                    <video id="video4" class="video-js"  preload="auto" data-setup="{}">
+                        <source src="video/video4.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <a href="#"><img class="play-button play04" src="img/play-btn@2x.png" alt=""></a>
+                    <a href="#"><img class="backward-btn backward04" src="img/backward-btn.png" alt=""></a>
+                    <a href="#"><img class="forward-btn forward04" src="img/forward-btn.png" alt=""></a>
+                </div>
+                <h3>Workshop 4: Variabelen gebruiken</h3>
+                <div class="accodiv">
+                    <video id="video5" class="video-js"  preload="auto" data-setup="{}">
+                        <source src="video/video5.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                    <a href="#"><img class="play-button play05" src="img/play-btn@2x.png" alt=""></a>
+                    <a href="#"><img class="backward-btn backward05" src="img/backward-btn.png" alt=""></a>
+                    <a href="#"><img class="forward-btn forward05" src="img/forward-btn.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-wrap">
+            <div class="supportWrap clearfix">
+                <h2>Support</h2>
+                <p class="supportP">Onze studenten staan voor je klaar. Etiam porta sem malesuada magna mollis euismod.
+                    Nullam id dolor id nibh ultricies vehicula ut id elit.
+                    id dolor id nibh ultricies vehicula ut id elit. </p>
+                <a href="#"><div class="contactBtn">CONTACT</div></a>
+            </div>
+        </div>
+
+        <div class="grid-wrap">
+            <section class="regular slider">
+                <div class="sliderContainer">
+                    <div class="sliderContent clearfix"><img src="img/Alina@2x.png" alt="Alina">
+                        <h3>Alina kovalchuk</h3>
+                        <h3>Hoofd Support</h3><a href="#">
+                            <div class="mailBtn">Mail</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="sliderContainer">
+                    <div class="sliderContent clearfix"><img src="img/Gorgie@2x.png" alt="Gorgie">
+                        <h3>Gorgie Ecinas</h3>
+                        <h3>Hoofd Support</h3><a href="#">
+                            <div class="mailBtn">Mail</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="sliderContainer">
+                    <div class="sliderContent clearfix"><img src="img/kal@2x.png" alt="Kal">
+                        <h3>Kal Visuals</h3>
+                        <h3>Hoofd Support</h3><a href="#">
+                            <div class="mailBtn">Mail</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="sliderContainer">
+                    <div class="sliderContent clearfix"><img src="img/norman@2x.png" alt="Norman">
+                        <h3>Norman Toth</h3>
+                        <h3>Hoofd Support</h3><a href="#">
+                            <div class="mailBtn">Mail</div>
+                        </a>
+                    </div>
+                </div>
+
+        </div>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-tekst">
+            <h1>Klaar voor de volgende uitdaging?</h1>
+            <p>In ons expertprogramma vind je de lessen voor gevorderden</p>
+            <div class="cta"><a href="#">KOM MAAR OP</a></div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
