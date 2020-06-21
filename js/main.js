@@ -8,7 +8,7 @@ $('#toggle').click(function(event){
         $('.grid-wrap h2').css({'color':'#CC0085'});
         $('.grid-wrap p').css({'color':'#CC0085'});
         $('nav').css({'background-color':'white', 'color':'black'});
-        $('header').css({'background-image':'url(.../img/hero@2x.png)'});
+        $('header').css({'background-image':'url(img/hero@2x.png)'});
         $('.logo').attr('src', '../img/logo@2x.png');
         $('.thumb').css({'background-color':'#F4F2FF', 'color': '#CC0085'});
         $('.leer').attr({'src':'../img/leer.svg'});
